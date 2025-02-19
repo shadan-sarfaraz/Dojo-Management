@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="10" parallel="methods" name="Failed suite [LoadTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="10" parallel="methods" name="LoadTest(failed)">
+    <classes>
+      <class name="tests.AIRoleMap">
+        <methods>
+          <include name="verifyCreateAIRoleMapWithInValidRoleMapNameWithoutFileTest"/>
+          <include name="verifyButtonsOnCreateRoleMapPopupModuleAreWorkingProperlyTest"/>
+          <include name="verifyPlaceHolderOnCompetenciesEditPopupModuleTest"/>
+          <include name="verifErrorMessageAndStarMarkForMendetoryFieldForChangeCompetencyModuleTest"/>
+          <include name="verifyWrongCompitencyNameInChangeCompetencyTest"/>
+          <include name="verifyEditAndSaveFunctionality"/>
+          <include name="verifyCreatingRolePlanWithFileWithoutDescriptionFieldTest"/>
+          <include name="verifyChangingCopetencyNameWithFileTest"/>
+          <include name="createAIRoleMapForFirstTimeForAFreshAccounTest"/>
+          <include name="verifyErrorMessageForMendetoryFieldInCreateRoleMapSection"/>
+          <include name="verifyCreatingRolePlanWithFileWithDescriptionFieldTest"/>
+          <include name="verifyTextInPixelLevelBoxTest"/>
+          <include name="verifyCreateAIRoleMapWithInValidRoleMapNameWithFileTest"/>
+          <include name="verifyCompetencyAndDeliverableNameComingCorrectlyFromAdminTest"/>
+          <include name="verifyCreateAIRoleMapWithValidRoleMapNameWithoutFileTest"/>
+          <include name="VerifyAllLinksWorkingProperlyOnAIRoleMapTest"/>
+          <include name="verifyButtonsOnEditDeliverablePopupModuleAreWorkingProperlyTest"/>
+          <include name="verifyIButtonHoverWorkingProperlyTest"/>
+          <include name="verifyChangingCopetencyNameWithoutFileTest"/>
+          <include name="setup"/>
+          <include name="VerifyClickEveryDeliverableTest"/>
+          <include name="teardown"/>
+          <include name="verifyDropdownWorkingProperlyTest"/>
+          <include name="verifyUserNameDisplayedOnTheAIRoleMapPageTest"/>
+        </methods>
+      </class> <!-- tests.AIRoleMap -->
+    </classes>
+  </test> <!-- LoadTest(failed) -->
+</suite> <!-- Failed suite [LoadTestSuite] -->
