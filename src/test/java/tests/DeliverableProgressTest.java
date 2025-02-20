@@ -16,7 +16,6 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import base.Base;
-import pages.CompanyVideoPage;
 import pages.DeliverableProgressPage;
 import pages.DojoSideMenuPage;
 import pages.HeaderOptions;
